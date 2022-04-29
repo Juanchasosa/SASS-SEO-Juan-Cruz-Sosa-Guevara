@@ -47,10 +47,10 @@
 
 p{
     color: $colorParrafos;
-    padding: 5px;
+    padding: 5px 5px $espaciado 5px ;
     font-size: 1.8rem;
-    width: 96%;
-    margin: 0 auto;
+    width: 95%;
+    margin: auto;
     text-align: justify;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;;
     line-height: 1.5;
@@ -126,7 +126,7 @@ a{
 
 
 .subtitulo2{
-    /* margin-left: 3rem; */
+    padding-bottom: $espaciado;
     margin: 0 auto;
     color: black;
     font-size: 1.8rem;
@@ -135,14 +135,27 @@ a{
 
 }
 
+@media (max-width:600px){
+    .subtitulo2{
+        font-size: 1.5rem;
+    }
+}
+
+
 .subtitulo3{
-    /* margin-left: 3rem; */
+    padding-bottom: $espaciado;
     color: $colorSubtitulo;
     font-size: 2rem;
     font-family: $tipografia;
     margin: 0 auto;
     width: 95%;
 
+}
+
+@media (max-width:600px){
+    .subtitulo3{
+        font-size: 1.7rem;
+    }
 }
 
 

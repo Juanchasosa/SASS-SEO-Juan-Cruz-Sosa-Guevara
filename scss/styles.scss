@@ -157,10 +157,15 @@ footer h4{
 
 /* PÁGINA TRATAMIENTOS CORPORALES Y FACIALES*/
 
-
-ul{
-    list-style: none;
+.lista-facial{
     display: grid;
-    grid-template-columns: auto;
-    width: 80%;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media (max-width:600px){
+    .lista-facial{
+        font-size: 1.4rem;
+    }
 }

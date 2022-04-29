@@ -44,10 +44,10 @@
 
 p {
   color: #777777;
-  padding: 5px;
+  padding: 5px 5px 1.5rem 5px;
   font-size: 1.8rem;
-  width: 96%;
-  margin: 0 auto;
+  width: 95%;
+  margin: auto;
   text-align: justify;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -114,7 +114,7 @@ a {
   }
 }
 .subtitulo2 {
-  /* margin-left: 3rem; */
+  padding-bottom: 1.5rem;
   margin: 0 auto;
   color: black;
   font-size: 1.8rem;
@@ -122,8 +122,13 @@ a {
   width: 95%;
 }
 
+@media (max-width: 600px) {
+  .subtitulo2 {
+    font-size: 1.5rem;
+  }
+}
 .subtitulo3 {
-  /* margin-left: 3rem; */
+  padding-bottom: 1.5rem;
   color: #218377;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
@@ -131,6 +136,11 @@ a {
   width: 95%;
 }
 
+@media (max-width: 600px) {
+  .subtitulo3 {
+    font-size: 1.7rem;
+  }
+}
 .tooltip {
   font-size: 1.5rem;
 }
@@ -197,7 +207,7 @@ a {
     background-attachment: scroll;
   }
 }
-#imagenCorporal1, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
+#imagenCorporal1, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
   width: auto;
   height: 350px;
   margin: 10px;
@@ -205,7 +215,7 @@ a {
 }
 
 @media (max-width: 600px) {
-  #imagenCorporal1, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
+  #imagenCorporal1, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
     height: 200px;
   }
 }
@@ -246,6 +256,14 @@ a {
 
 #fotoFacial3 {
   background-image: url(../img/rosacea.jpg);
+}
+
+#fotoFacial4 {
+  background-image: url(../img/microdermabrasion.jpg);
+}
+
+#fotoFacial5 {
+  background-image: url(../img/anti-acne.jpg);
 }
 
 /* PÁGINA TRATAMIENTOS FACIALES */
@@ -395,11 +413,17 @@ footer h4 {
 }
 
 /* PÁGINA TRATAMIENTOS CORPORALES Y FACIALES*/
-ul {
-  list-style: none;
+.lista-facial {
   display: grid;
-  grid-template-columns: auto;
-  width: 80%;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media (max-width: 600px) {
+  .lista-facial {
+    font-size: 1.4rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

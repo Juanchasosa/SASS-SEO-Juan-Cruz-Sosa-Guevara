@@ -136,6 +136,16 @@
     background-image: url(../img/rosacea.jpg)
 }
 
+#fotoFacial4{
+    @extend #imagenCorporal1;
+    background-image: url(../img/microdermabrasion.jpg)
+}
+
+#fotoFacial5{
+    @extend #imagenCorporal1;
+    background-image: url(../img/anti-acne.jpg)
+}
+
 
 
 /* PÁGINA TRATAMIENTOS FACIALES */
