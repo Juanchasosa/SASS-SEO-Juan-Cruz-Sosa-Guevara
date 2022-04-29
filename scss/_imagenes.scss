@@ -1,0 +1,138 @@
+@import "variables";
+
+
+/*IMAGENES*/
+.tratamientoFacial-index{
+    width: 500px;
+
+}
+
+@media(max-width:600px){
+
+    .tratamientoFacial-index{
+        width: 100%;
+    }
+
+}
+
+
+.tratamientoCorporal-index{
+    width: 35%;
+    order: 3;
+}
+
+@media(max-width:600px){
+
+    .tratamientoCorporal-index{
+        width: 100%;
+        order: 1;
+
+    }
+}
+
+
+.appSocial{
+    width: 100px;
+}
+
+@media (max-width:600px){
+    .appSocial{
+        width: 60px;
+    }
+}
+
+.carousel{
+    width: 62%;
+    margin: 50px auto;
+}
+
+@media (max-width:600px){
+    .carousel{
+        width: 100%;
+    }
+}
+
+/*IMAGENES PAGINA CORPORAL*/
+
+.parallax{
+    background: #fff fixed no-repeat 50% 50% ;
+    background-size: cover;
+    width: 100%;
+}
+
+@media (max-width:600px){
+    .parallax{
+        background-attachment: scroll;
+        
+    }
+}
+
+#imagenCorporal1{
+    width: auto;
+    height: 350px;
+    margin: 10px;
+    background-image: url(../img/tratamiento-reductor-min.jpg);
+
+}
+@media (max-width:600px){
+    #imagenCorporal1{
+
+        height: 200px;
+    }
+}
+
+#imagenCorporal2{
+    @extend #imagenCorporal1;
+    background-image: url(../img/electroestimulación.jpg);
+}
+
+#imagenCorporal3{
+    @extend #imagenCorporal1;
+    background-image: url(../img/ultrasonido.jfif);
+
+}
+
+#imagenCorporal4{
+    @extend #imagenCorporal1;
+    background-image: url(../img/masaje-piernas.jpg);
+
+}
+
+#imagenCorporal5{
+    @extend #imagenCorporal1;
+    background-image: url(../img/drenaje-linfático.jpg);
+
+}
+
+#imagenCorporal6{
+    @extend #imagenCorporal1;
+    background-image: url(../img/masoterapia.jpg);
+
+}
+
+/*IMAGENES PAGINA CORPORAL*/
+
+
+/* PÁGINA TRATAMIENTOS FACIALES */
+
+#fotoFacial1{
+    @extend #imagenCorporal1;
+    background-image: url(../img/limpieza-facial.jpg)
+}
+
+@media (max-width:600px){
+    #fotoFacial1{
+        height: 200px;
+    }
+}
+
+#fotoFacial1{
+    @extend #imagenCorporal1;
+    background-image: url(../img/limpieza-facial.jpg)
+}
+
+
+
+/* PÁGINA TRATAMIENTOS FACIALES */
+
+/*IMAGENES*/
