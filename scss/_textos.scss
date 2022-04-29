@@ -146,5 +146,19 @@ a{
 }
 
 
+.tooltip{
+    font-size: 1.5rem;
+    
+}
+
+.definicion{
+    color: $colorParrafos;
+    font-weight: bold;
+}
+
+.definicion:hover{
+    text-decoration: underline;
+}
+
 
 /*EDITOR DE TEXTO*/

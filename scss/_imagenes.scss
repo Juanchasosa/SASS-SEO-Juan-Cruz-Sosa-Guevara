@@ -126,9 +126,14 @@
     }
 }
 
-#fotoFacial1{
+#fotoFacial2{
     @extend #imagenCorporal1;
-    background-image: url(../img/limpieza-facial.jpg)
+    background-image: url(../img/lifting.jpg)
+}
+
+#fotoFacial3{
+    @extend #imagenCorporal1;
+    background-image: url(../img/rosacea.jpg)
 }
 
 
