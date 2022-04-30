@@ -44,7 +44,7 @@
 
 p {
   color: #777777;
-  padding: 5px 5px 1.5rem 5px;
+  padding: 5px 5px 1.2rem 5px;
   font-size: 1.8rem;
   width: 95%;
   margin: auto;
@@ -114,7 +114,7 @@ a {
   }
 }
 .subtitulo2 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.2rem;
   margin: 0 auto;
   color: black;
   font-size: 1.8rem;
@@ -128,7 +128,7 @@ a {
   }
 }
 .subtitulo3 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.2rem;
   color: #218377;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
@@ -155,6 +155,16 @@ a {
 }
 
 /*EDITOR DE TEXTO*/
+.iconify {
+  font-size: 3.6rem;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .iconify {
+    display: inline;
+  }
+}
 /*IMAGENES*/
 .tratamientoFacial-index {
   width: 500px;
@@ -207,15 +217,15 @@ a {
     background-attachment: scroll;
   }
 }
-#imagenCorporal1, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
+#imagenCorporal1, #fotoFacial8, #fotoFacial7, #fotoFacial6, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
   width: auto;
   height: 350px;
   margin: 10px;
-  background-image: url(../img/tratamiento-reductor-min.jpg);
+  background-image: url(../img/tratamiento-reductor.jpg);
 }
 
 @media (max-width: 600px) {
-  #imagenCorporal1, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
+  #imagenCorporal1, #fotoFacial8, #fotoFacial7, #fotoFacial6, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
     height: 200px;
   }
 }
@@ -264,6 +274,18 @@ a {
 
 #fotoFacial5 {
   background-image: url(../img/anti-acne.jpg);
+}
+
+#fotoFacial6 {
+  background-image: url(../img/anti-age.jpg);
+}
+
+#fotoFacial7 {
+  background-image: url(../img/peeling.jpg);
+}
+
+#fotoFacial8 {
+  background-image: url(../img/puntos-negros.jpg);
 }
 
 /* PÁGINA TRATAMIENTOS FACIALES */
