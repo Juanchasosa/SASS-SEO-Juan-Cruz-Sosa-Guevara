@@ -157,7 +157,7 @@ footer h4{
 
 /* PÁGINA TRATAMIENTOS CORPORALES Y FACIALES*/
 
-.lista-facial{
+.lista-tratamientos{
     display: grid;
     font-size: 1.8rem;
     margin: 0 auto;
@@ -165,8 +165,32 @@ footer h4{
 }
 
 @media (max-width:600px){
-    .lista-facial{
+    .lista-tratamientos{
         font-size: 1.4rem;
     }
+}
+
+.asociados{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom:$espaciado*2;
+    justify-items: center;
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .asociados{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width:768px){
+    .asociados{
+
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(4,1fr) ;
+
+    }
+    
 }
 

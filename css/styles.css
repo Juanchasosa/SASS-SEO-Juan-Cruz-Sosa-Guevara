@@ -217,7 +217,7 @@ a {
     background-attachment: scroll;
   }
 }
-#imagenCorporal1, #fotoFacial8, #fotoFacial7, #fotoFacial6, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
+#imagenCorporal1, #fotoFacial8, #fotoFacial7, #fotoFacial6, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal9, #imagenCorporal8, #imagenCorporal7, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
   width: auto;
   height: 350px;
   margin: 10px;
@@ -225,7 +225,7 @@ a {
 }
 
 @media (max-width: 600px) {
-  #imagenCorporal1, #fotoFacial8, #fotoFacial7, #fotoFacial6, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
+  #imagenCorporal1, #fotoFacial8, #fotoFacial7, #fotoFacial6, #fotoFacial5, #fotoFacial4, #fotoFacial3, #fotoFacial2, #fotoFacial1, #imagenCorporal9, #imagenCorporal8, #imagenCorporal7, #imagenCorporal6, #imagenCorporal5, #imagenCorporal4, #imagenCorporal3, #imagenCorporal2 {
     height: 200px;
   }
 }
@@ -247,6 +247,18 @@ a {
 
 #imagenCorporal6 {
   background-image: url(../img/masoterapia.jpg);
+}
+
+#imagenCorporal7 {
+  background-image: url(../img/estrias.jpg);
+}
+
+#imagenCorporal8 {
+  background-image: url(../img/depilacion.jpg);
+}
+
+#imagenCorporal9 {
+  background-image: url(../img/radiofrecuencia.jpg);
 }
 
 /*IMAGENES PAGINA CORPORAL*/
@@ -435,7 +447,7 @@ footer h4 {
 }
 
 /* PÁGINA TRATAMIENTOS CORPORALES Y FACIALES*/
-.lista-facial {
+.lista-tratamientos {
   display: grid;
   font-size: 1.8rem;
   margin: 0 auto;
@@ -443,8 +455,27 @@ footer h4 {
 }
 
 @media (max-width: 600px) {
-  .lista-facial {
+  .lista-tratamientos {
     font-size: 1.4rem;
+  }
+}
+.asociados {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 2.4rem;
+  justify-items: center;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .asociados {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+@media (max-width: 768px) {
+  .asociados {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 

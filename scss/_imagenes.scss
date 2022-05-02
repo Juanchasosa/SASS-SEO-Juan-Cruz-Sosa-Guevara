@@ -120,6 +120,24 @@
 
 }
 
+#imagenCorporal7{
+    @extend #imagenCorporal1;
+    background-image: url(../img/estrias.jpg);
+
+}
+
+#imagenCorporal8{
+    @extend #imagenCorporal1;
+    background-image: url(../img/depilacion.jpg);
+
+}
+
+#imagenCorporal9{
+    @extend #imagenCorporal1;
+    background-image: url(../img/radiofrecuencia.jpg);
+
+}
+
 /*IMAGENES PAGINA CORPORAL*/
 
 
