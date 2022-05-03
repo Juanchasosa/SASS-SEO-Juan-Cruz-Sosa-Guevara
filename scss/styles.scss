@@ -3,6 +3,22 @@
 @import "imagenes";
 
 
+
+// $semaforo: (
+//         luzRoja: #ff0000,
+//         luzAmarilla:#ffff00,
+//         luzverde: #008000
+// ); 
+
+// @each $luzSemaforo, $colorLuz  in $semaforo{
+//    .semaforo_#{$luzSemaforo} {
+//        background-color: $colorLuz;
+//        border-radius: 50%;
+//    }
+// }
+
+
+
 html{
     font-size: 62.5%;
 }
