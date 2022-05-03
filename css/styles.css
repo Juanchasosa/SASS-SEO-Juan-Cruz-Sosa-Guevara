@@ -221,7 +221,7 @@ a {
   width: auto;
   height: 350px;
   margin: 10px;
-  background-image: url(../img/tratamiento-reductor.jpg);
+  background-image: url(../img/tratamiento-reductor.webp);
 }
 
 @media (max-width: 600px) {
@@ -230,41 +230,41 @@ a {
   }
 }
 #imagenCorporal2 {
-  background-image: url(../img/electroestimulación.jpg);
+  background-image: url(../img/electroestimulacion.webp);
 }
 
 #imagenCorporal3 {
-  background-image: url(../img/ultrasonido.jfif);
+  background-image: url(../img/ultrasonido.webp);
 }
 
 #imagenCorporal4 {
-  background-image: url(../img/masaje-piernas.jpg);
+  background-image: url(../img/masaje-piernas.webp);
 }
 
 #imagenCorporal5 {
-  background-image: url(../img/drenaje-linfático.jpg);
+  background-image: url(../img/drenaje-linfático.webp);
 }
 
 #imagenCorporal6 {
-  background-image: url(../img/masoterapia.jpg);
+  background-image: url(../img/masoterapia.webp);
 }
 
 #imagenCorporal7 {
-  background-image: url(../img/estrias.jpg);
+  background-image: url(../img/estrias.webp);
 }
 
 #imagenCorporal8 {
-  background-image: url(../img/depilacion.jpg);
+  background-image: url(../img/depilacion.webp);
 }
 
 #imagenCorporal9 {
-  background-image: url(../img/radiofrecuencia.jpg);
+  background-image: url(../img/radiofrecuencia.webp);
 }
 
 /*IMAGENES PAGINA CORPORAL*/
 /* PÁGINA TRATAMIENTOS FACIALES */
 #fotoFacial1 {
-  background-image: url(../img/limpieza-facial.jpg);
+  background-image: url(../img/limpieza-facial.webp);
 }
 
 @media (max-width: 600px) {
@@ -273,31 +273,31 @@ a {
   }
 }
 #fotoFacial2 {
-  background-image: url(../img/lifting.jpg);
+  background-image: url(../img/lifting.webp);
 }
 
 #fotoFacial3 {
-  background-image: url(../img/rosacea.jpg);
+  background-image: url(../img/rosacea.webp);
 }
 
 #fotoFacial4 {
-  background-image: url(../img/microdermabrasion.jpg);
+  background-image: url(../img/microdermabrasion.webp);
 }
 
 #fotoFacial5 {
-  background-image: url(../img/anti-acne.jpg);
+  background-image: url(../img/anti-acne.webp);
 }
 
 #fotoFacial6 {
-  background-image: url(../img/anti-age.jpg);
+  background-image: url(../img/anti-age.webp);
 }
 
 #fotoFacial7 {
-  background-image: url(../img/peeling.jpg);
+  background-image: url(../img/peeling.webp);
 }
 
 #fotoFacial8 {
-  background-image: url(../img/puntos-negros.jpg);
+  background-image: url(../img/puntos-negros.webp);
 }
 
 /* PÁGINA TRATAMIENTOS FACIALES */
