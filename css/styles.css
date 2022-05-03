@@ -160,7 +160,7 @@ a {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
   .iconify {
     display: inline;
   }
@@ -318,6 +318,11 @@ html {
   z-index: 1;
 }
 
+@media (min-width: 601px) and (max-width: 991px) {
+  .navbar-nav {
+    align-items: center;
+  }
+}
 /*BARRA DE NAVEGACIÓN*/
 /*SECCIONES*/
 header {
@@ -461,7 +466,7 @@ footer h4 {
 }
 .asociados {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 2.4rem;
   justify-items: center;
 }
@@ -476,6 +481,24 @@ footer h4 {
   .asociados {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+  }
+}
+iframe {
+  width: 400px;
+  height: 501px;
+  border: solid black 1px;
+  margin: 5px;
+}
+
+@media (min-width: 769px) and (max-width: 1224px) {
+  iframe {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  iframe {
+    width: 300px;
+    border: none;
   }
 }
 
